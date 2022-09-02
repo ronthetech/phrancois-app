@@ -1,10 +1,10 @@
-import React from "react";
+import styles from "./Navbar.module.scss";
 
-function Navbar(props) {
+function Navbar() {
 	return (
-		<header className='header'>
+		<header className={styles.header}>
 			<a href='#'>
-				<h1 className='logo'>Phrancois</h1>
+				<h1 className='logo'>Phrancois🥘</h1>
 			</a>
 			{/* <Link href='/'>
     <a>

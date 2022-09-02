@@ -1,47 +1,18 @@
-// variables
-
-$size5: 1rem;
-
-// global styles
-.header {
-	width: 100%;
-	height: 6rem;
-	background-color: var(--color-grey-900);
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 0 10%;
-}
-
-.header ul {
-	list-style: none;
-	display: flex;
-	align-items: baseline;
-	margin: 0;
+html,
+body {
 	padding: 0;
+	margin: 0;
+}
+a {
+	color: inherit;
+	text-decoration: none;
 }
 
-.header li {
-	margin: 0 var(--size-4);
+* {
+	box-sizing: border-box;
 }
-
-.header a {
-	color: var(--color-grey-100);
-	font-size: var(--size-4);
-}
-
-.header a:hover,
-.header a:active,
-.header a.active {
-	color: var(--color-grey-200);
-}
-
-@media (min-width: 768px) {
-	.header ul {
-		gap: 0.5rem;
-	}
-
-	.header a {
-		font-size: $size5;
-	}
+.main {
+	margin: 3rem auto;
+	width: 90%;
+	max-width: 40rem;
 }
